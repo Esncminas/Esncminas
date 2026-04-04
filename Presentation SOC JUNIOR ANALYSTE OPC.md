@@ -38,8 +38,7 @@ graph LR
   ROOT --> FOR["🔎 3. Moteurs Forensics<br/>(Python, AbuseIPDB, URLScan)"]:::nodeStyle
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
 ````
-<a href="SOAR-PHISING-ANALYSTE-MAKE-IA">
-  <img src="https://github-readme-stats.vercel.app/api/pin/?username=[Esncminas]&repo=[SOAR-PHISING-ANALYSTE-MAKE-IA]&theme=radical" alt="https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA" />
+<a href="SOAR-PHISING-ANALYSTE-MAKE-IA"> 
 </a>
 
 **<mark>Expertise,Niveau,Compétences Validées</mark>**
