@@ -37,5 +37,61 @@ graph LR
   ROOT --> IA["🧠 2. Analyse Sémantique IA<br/>(Prompt Guards)"]:::nodeStyle
   ROOT --> FOR["🔎 3. Moteurs Forensics<br/>(Python, AbuseIPDB, URLScan)"]:::nodeStyle
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
+````
+Expertise,Niveau,Compétences Validées
 
-  
+Architecture SOAR & Automatisation,█████████░ 90%,"Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."
+Forensique E-mail & Threat Intel,████████░░ 80%,"Parsing d'entêtes complexes (Headers EML), typage MIME, enrichissement IoC (CTI)."
+Programmation Python & API REST,███████░░░ 70%,"Scripting (Regex), requêtes HTTP synchrones (Webhooks), sérialisation et parsing JSON."
+
+Autres Projets Techniques
+<details>
+<summary><b>🛡️ Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
+
+
+Compétences : Méthodologie OWASP, cartographie Nmap, exploitation via Burp Suite, rédaction de plan de remédiation.
+
+Livrable : 🔗 Lien vers le rapport d'audit anonymisé
+
+</details>
+
+<details>
+<summary><b>👁️ Déploiement d'un SIEM et Supervision Réseau (Cliquez pour dérouler)</b></summary>
+
+
+Compétences : Installation et configuration de Wazuh, création de règles de détection d'intrusions (Blue Team).
+
+Livrable : 🔗 Lien vers le Dashboard de supervision
+
+</details>
+
+Expériences & Soft Skills
+[Mois Année – Mois Année] | [Intitulé du poste] chez [Nom de l'entreprise]
+
+Missions : Résolution des tickets d'incidents informatiques niveau 1 & 2.
+
+Soft Skills : Relation client, gestion du stress, communication inter-équipes.
+
+[Mois Année – Mois Année] | [Intitulé du poste] chez [Nom de l'entreprise]
+
+Missions : Déploiement de solutions logicielles, sensibilisation des utilisateurs.
+
+Soft Skills : Pédagogie, vulgarisation technique.
+
+🇬🇧 Anglais Technique & Professionnel (B2/C1)
+La maîtrise de l'anglais technique est le cœur de mon environnement de travail (débruitage de logs, ingénierie) :
+
+📚 Recherche & Ingénierie : Intégration d'outils complexes exclusivement via des documentations anglophones (Pipedream Developer Docs, RFC standards mondiaux des e-mails).
+
+🔧 Troubleshooting : Interprétation des codes d'erreurs serveurs (Unprocessable Entity, BundleValidationError) et échanges sur des forums spécialisés (StackOverflow).
+
+💻 Standardisation : Nommage systématisé des variables (rawBodyContent, ip_source) et structuration des flux JSON selon les conventions de la scène tech internationale.
+
+<div align="center">
+<i>Prêt à relever de nouveaux défis en cybersécurité.</i>
+
+
+
+<a href="https://www.google.com/search?q=https://linkedin.com/in/[ton-profil]" target="_blank"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"/></a>
+<a href="mailto:[ton-email@exemple.com]"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Contact-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" alt="Email"/></a>
+</div>
