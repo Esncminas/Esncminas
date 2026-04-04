@@ -38,7 +38,11 @@ graph LR
   ROOT --> FOR["🔎 3. Moteurs Forensics<br/>(Python, AbuseIPDB, URLScan)"]:::nodeStyle
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
 ````
-PROJET ENTIER  **[Voir le repository complet du projet : Déploiement d'un SIEM]([https://github.com/Ton_Pseudo/Nom_Du_Repo](https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA))**
+<div align="center">
+  <a href="[https://github.com/ton-pseudo/projet-1](https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA)">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ton-pseudo&repo=projet-1&theme=radical" width="400" />
+  </a>
+</div>
 
 **<mark>Expertise,Niveau,Compétences Validées</mark>**
 
