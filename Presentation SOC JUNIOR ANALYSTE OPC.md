@@ -39,7 +39,7 @@ graph LR
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
 ````
 
- **[Voir le repository complet du projet : Déploiement d'un SIEM](https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA)**
+ **[Voir le repository complet du projet : Déploiement d'un SIEM](https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA/blob/main/SOAR%20Phishing%20Analyzer%20(Make.com%20%2B%20IA).md)**
 
 **<mark>Expertise,Niveau,Compétences Validées</mark>**
 
