@@ -38,7 +38,7 @@ graph LR
   ROOT --> FOR["🔎 3. Moteurs Forensics<br/>(Python, AbuseIPDB, URLScan)"]:::nodeStyle
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
 ````
-**Expertise,Niveau,Compétences Validées**
+**<mark>Expertise,Niveau,Compétences Validées</mark>**
 
 Architecture SOAR & Automatisation,█████████░ 90%,<br> 
 --> "Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."<br> 
