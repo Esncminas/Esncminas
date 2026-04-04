@@ -47,39 +47,39 @@ Forensique E-mail & Threat Intel,████████░░ 80%,
 Programmation Python & API REST,███████░░░ 70%,
 --> "Scripting (Regex), requêtes HTTP synchrones (Webhooks), sérialisation et parsing JSON."
 
-Autres Projets Techniques
+**<mark>Autres Projets Techniques</mark>**
 <details>
 <summary><b> Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
 Compétences : <br>
-  Méthodologie OWASP,<br> 
-  cartographie Nmap,<br>
-  exploitation via Burp Suite,<br>
-  rédaction de plan de remédiation.<br>
+  ◼️ Méthodologie OWASP,<br> 
+  ◼️ cartographie Nmap,<br>
+  ◼️ exploitation via Burp Suite,<br>
+  ◼️ rédaction de plan de remédiation.<br>
 </details>
 
 <details>
 <summary><b> Déploiement d'un SIEM et Supervision Réseau (Cliquez pour dérouler)</b></summary>
 Compétences :<br> 
-  Installation et configuration de Wazuh,<br>
-  création de règles de détection d'intrusions (Blue Team).<br>
+  ◼️ Installation et configuration de Wazuh,<br>
+  ◼️ création de règles de détection d'intrusions (Blue Team).<br>
 </details>
 
 **<mark>Expériences & Soft Skills</mark>**
 
-Projets formation SOC : 
+◼️ Projets formation SOC : 
 Missions : Résolution des tickets d'incidents informatiques niveau 1 & 2.
 Soft Skills : Relation client, gestion du stress, communication inter-équipes.
 
-Projets formation SOC : 
+◼️ Projets formation SOC : 
 Missions : Déploiement de solutions logicielles, sensibilisation des utilisateurs.
 Soft Skills : Pédagogie, vulgarisation technique.
 
-🇬🇧 Anglais Technique & Professionnel (B2/C1)
+◼️ Anglais Technique & Professionnel (B2/C1)
 La maîtrise de l'anglais technique est le cœur de mon environnement de travail (débruitage de logs, ingénierie) :
 
-Recherche & Ingénierie : Intégration d'outils complexes exclusivement via des documentations anglophones (Pipedream Developer Docs, RFC standards mondiaux des e-mails).
-Troubleshooting : Interprétation des codes d'erreurs serveurs (Unprocessable Entity, BundleValidationError) et échanges sur des forums spécialisés (StackOverflow).
-Standardisation : Nommage systématisé des variables (rawBodyContent, ip_source) et structuration des flux JSON selon les conventions de la scène tech internationale.
+<mark>Recherche & Ingénierie</mark> : Intégration d'outils complexes exclusivement via des documentations anglophones (Pipedream Developer Docs, RFC standards mondiaux des e-mails).<br>
+<mark>Troubleshooting</mark> : Interprétation des codes d'erreurs serveurs (Unprocessable Entity, BundleValidationError) et échanges sur des forums spécialisés (StackOverflow).<br>
+<mark>Standardisation</mark> : Nommage systématisé des variables (rawBodyContent, ip_source) et structuration des flux JSON selon les conventions de la scène tech internationale.<br>
 
 <div align="center">
 <i>Prêt à relever de nouveaux défis en cybersécurité.</i>
