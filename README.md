@@ -14,15 +14,15 @@
 
 ---
 
-## 🚀 Projet Majeur : SOAR Phishing Analyzer
+##  Projet Majeur : SOAR Phishing Analyzer
 
 **Le Problème :** Les équipes SOC sont saturées par les signalements d'e-mails suspects (Alert Fatigue) et perdent un temps précieux sur des qualifications manuelles répétitives.
 **La Solution :** Conception et déploiement d'une architecture SOAR hybride 100% automatisée (Ingestion ➔ Forensics ➔ CTI ➔ Scoring IA ➔ Rapport).
 
-* ⚙️ **Design Pattern "Scatter-Gather" :** Parallélisation des flux d'analyses (Fichiers, IPs, URLs), stockage en mémoire, et convergence pour générer un score de risque unique.
-* 🐍 **Analyse Forensique (Micro-service) :** Script Python serverless pour extraire l'IP source réelle (contournement des IP privées) et valider la cryptographie (SPF/DKIM).
-* 🔀 **Aiguillage Dynamique :** Routage intelligent via filtre MIME (Analyse QR Codes vs. Malware Binaires).
-* 🧠 **IA & Threat Intelligence :** Intégration d'APIs (AbuseIPDB, URLScan) et analyse sémantique par LLM (détection d'urgence et protection anti-Prompt Injection).
+* **Design Pattern "Scatter-Gather" :** Parallélisation des flux d'analyses (Fichiers, IPs, URLs), stockage en mémoire, et convergence pour générer un score de risque unique.
+* **Analyse Forensique (Micro-service) :** Script Python serverless pour extraire l'IP source réelle (contournement des IP privées) et valider la cryptographie (SPF/DKIM).
+* **Aiguillage Dynamique :** Routage intelligent via filtre MIME (Analyse QR Codes vs. Malware Binaires).
+* **IA & Threat Intelligence :** Intégration d'APIs (AbuseIPDB, URLScan) et analyse sémantique par LLM (détection d'urgence et protection anti-Prompt Injection).
 
 ### 🗺️ Architecture de Détection
 
