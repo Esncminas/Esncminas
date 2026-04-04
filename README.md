@@ -50,7 +50,7 @@ Programmation Python & API REST,███████░░░ 70%,
 Autres Projets Techniques
 <details>
 <summary><b> Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
-Compétences : 
+Compétences : <br>
   Méthodologie OWASP,<br> 
   cartographie Nmap, <br>
   exploitation via Burp Suite, <br>
@@ -59,11 +59,12 @@ Compétences :
 
 <details>
 <summary><b> Déploiement d'un SIEM et Supervision Réseau (Cliquez pour dérouler)</b></summary>
-Compétences : Installation et configuration de Wazuh, création de règles de détection d'intrusions (Blue Team).
-Livrable :  Lien vers le Dashboard de supervision
+Compétences :<br> 
+  Installation et configuration de Wazuh<br>, 
+  création de règles de détection d'intrusions (Blue Team).<br>
 </details>
 
-Expériences & Soft Skills
+**Expériences & Soft Skills**
 
 Projets formation SOC : 
 Missions : Résolution des tickets d'incidents informatiques niveau 1 & 2.
