@@ -84,8 +84,3 @@ La maîtrise de l'anglais technique est le cœur de mon environnement de travail
 <div align="center">
 <i>Prêt à relever de nouveaux défis en cybersécurité.</i>
 
-
-
-<a href="https://www.google.com/search?q=https://linkedin.com/in/[ton-profil]" target="_blank"><img src="https://www.google.com/search?q=https://img.shields.io/badge/LinkedIn-0077B5%3Fstyle%3Dfor-the-badge%26logo%3Dlinkedin%26logoColor%3Dwhite" alt="LinkedIn"/></a>
-<a href="mailto:[ivlminas@gmail.com]"><img src="https://www.google.com/search?q=https://img.shields.io/badge/Contact-D14836%3Fstyle%3Dfor-the-badge%26logo%3Dgmail%26logoColor%3Dwhite" alt="Email"/></a>
-</div>
