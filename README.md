@@ -1,6 +1,6 @@
 <div align="center">
-  <h1>Hi 👋, I'm [Ton Prénom] [Ton Nom]</h1>
-  <h3>🛡️ Analyste SOC | Ingénieur SecOps en devenir</h3>
+  <h1>Salut 👋,Je m'appel Adrien DUCTANE</h1>
+  <h3>🛡️ Analyste Junior SOC | Ingénieur SecOps en devenir</h3>
   
   <p>
     <img src="https://img.shields.io/badge/SecOps-10B981?style=for-the-badge&logo=shield&logoColor=white" alt="SecOps"/>
@@ -50,7 +50,11 @@ Programmation Python & API REST,███████░░░ 70%,
 Autres Projets Techniques
 <details>
 <summary><b> Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
-Compétences : Méthodologie OWASP, cartographie Nmap, exploitation via Burp Suite, rédaction de plan de remédiation.
+Compétences : 
+  Méthodologie OWASP, 
+  cartographie Nmap, 
+  exploitation via Burp Suite, 
+  rédaction de plan de remédiation.
 </details>
 
 <details>
