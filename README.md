@@ -38,7 +38,7 @@ graph LR
   ROOT --> FOR["🔎 3. Moteurs Forensics<br/>(Python, AbuseIPDB, URLScan)"]:::nodeStyle
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
 ````
-Expertise,Niveau,Compétences Validées
+**Expertise,Niveau,Compétences Validées**
 
 Architecture SOAR & Automatisation,█████████░ 90%,
 --> "Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."
@@ -51,10 +51,10 @@ Autres Projets Techniques
 <details>
 <summary><b> Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
 Compétences : 
-  Méthodologie OWASP, 
-  cartographie Nmap, 
-  exploitation via Burp Suite, 
-  rédaction de plan de remédiation.
+  Méthodologie OWASP,<br> 
+  cartographie Nmap, <br>
+  exploitation via Burp Suite, <br>
+  rédaction de plan de remédiation.<br>
 </details>
 
 <details>
