@@ -40,9 +40,12 @@ graph LR
 ````
 Expertise,Niveau,Compétences Validées
 
-Architecture SOAR & Automatisation,█████████░ 90%,"Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."
-Forensique E-mail & Threat Intel,████████░░ 80%,"Parsing d'entêtes complexes (Headers EML), typage MIME, enrichissement IoC (CTI)."
-Programmation Python & API REST,███████░░░ 70%,"Scripting (Regex), requêtes HTTP synchrones (Webhooks), sérialisation et parsing JSON."
+Architecture SOAR & Automatisation,█████████░ 90%,
+--> "Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."
+Forensique E-mail & Threat Intel,████████░░ 80%,
+--> "Parsing d'entêtes complexes (Headers EML), typage MIME, enrichissement IoC (CTI)."
+Programmation Python & API REST,███████░░░ 70%,
+--> "Scripting (Regex), requêtes HTTP synchrones (Webhooks), sérialisation et parsing JSON."
 
 Autres Projets Techniques
 <details>
@@ -58,7 +61,6 @@ Livrable : 🔗 Lien vers le rapport d'audit anonymisé
 <details>
 <summary><b>👁️ Déploiement d'un SIEM et Supervision Réseau (Cliquez pour dérouler)</b></summary>
 
-
 Compétences : Installation et configuration de Wazuh, création de règles de détection d'intrusions (Blue Team).
 
 Livrable : 🔗 Lien vers le Dashboard de supervision
@@ -69,22 +71,17 @@ Expériences & Soft Skills
 [Mois Année – Mois Année] | [Intitulé du poste] chez [Nom de l'entreprise]
 
 Missions : Résolution des tickets d'incidents informatiques niveau 1 & 2.
-
 Soft Skills : Relation client, gestion du stress, communication inter-équipes.
 
 [Mois Année – Mois Année] | [Intitulé du poste] chez [Nom de l'entreprise]
-
 Missions : Déploiement de solutions logicielles, sensibilisation des utilisateurs.
-
 Soft Skills : Pédagogie, vulgarisation technique.
 
 🇬🇧 Anglais Technique & Professionnel (B2/C1)
 La maîtrise de l'anglais technique est le cœur de mon environnement de travail (débruitage de logs, ingénierie) :
 
 📚 Recherche & Ingénierie : Intégration d'outils complexes exclusivement via des documentations anglophones (Pipedream Developer Docs, RFC standards mondiaux des e-mails).
-
 🔧 Troubleshooting : Interprétation des codes d'erreurs serveurs (Unprocessable Entity, BundleValidationError) et échanges sur des forums spécialisés (StackOverflow).
-
 💻 Standardisation : Nommage systématisé des variables (rawBodyContent, ip_source) et structuration des flux JSON selon les conventions de la scène tech internationale.
 
 <div align="center">
