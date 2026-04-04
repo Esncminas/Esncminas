@@ -49,18 +49,18 @@ Programmation Python & API REST,███████░░░ 70%,
 
 **<mark>Autres Projets Techniques</mark>**
 <details>
-<summary><b> Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
+<summary><b> Audit de vulnérabilités et Pentest Web</b></summary>
 Compétences : <br>
   ◼️ Méthodologie OWASP,<br> 
   ◼️ cartographie Nmap,<br>
-  ◼️ exploitation via Burp Suite,<br>
   ◼️ rédaction de plan de remédiation.<br>
 </details>
 
 <details>
-<summary><b> Déploiement d'un SIEM et Supervision Réseau (Cliquez pour dérouler)</b></summary>
+<summary><b> Déploiement d'un SIEM et Supervision Réseau</b></summary>
 Compétences :<br> 
   ◼️ Installation et configuration de Wazuh,<br>
+  ◼️ Utilisation THEHIVE & Cortex<br>
   ◼️ création de règles de détection d'intrusions (Blue Team).<br>
 </details>
 
