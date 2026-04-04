@@ -52,19 +52,19 @@ Autres Projets Techniques
 <summary><b> Audit de vulnérabilités et Pentest Web (Cliquez pour dérouler)</b></summary>
 Compétences : <br>
   Méthodologie OWASP,<br> 
-  cartographie Nmap, <br>
-  exploitation via Burp Suite, <br>
+  cartographie Nmap,<br>
+  exploitation via Burp Suite,<br>
   rédaction de plan de remédiation.<br>
 </details>
 
 <details>
 <summary><b> Déploiement d'un SIEM et Supervision Réseau (Cliquez pour dérouler)</b></summary>
 Compétences :<br> 
-  Installation et configuration de Wazuh<br>, 
+  Installation et configuration de Wazuh,<br>
   création de règles de détection d'intrusions (Blue Team).<br>
 </details>
 
-**Expériences & Soft Skills**
+**<mark>Expériences & Soft Skills</mark>**
 
 Projets formation SOC : 
 Missions : Résolution des tickets d'incidents informatiques niveau 1 & 2.
