@@ -66,15 +66,15 @@ Compétences :<br>
 
 **<mark>Expériences & Soft Skills</mark>**
 
-◼️ Projets formation SOC : 
+◼️ Projets formation SOC : <br>
 Missions : Résolution des tickets d'incidents informatiques niveau 1 & 2.
 Soft Skills : Relation client, gestion du stress, communication inter-équipes.
 
-◼️ Projets formation SOC : 
+◼️ Projets formation SOC :<br> 
 Missions : Déploiement de solutions logicielles, sensibilisation des utilisateurs.
 Soft Skills : Pédagogie, vulgarisation technique.
 
-◼️ Anglais Technique & Professionnel (B2/C1)
+◼️ Anglais Technique & Professionnel (B2/C1)<br>
 La maîtrise de l'anglais technique est le cœur de mon environnement de travail (débruitage de logs, ingénierie) :
 
 <mark>Recherche & Ingénierie</mark> : Intégration d'outils complexes exclusivement via des documentations anglophones (Pipedream Developer Docs, RFC standards mondiaux des e-mails).<br>
