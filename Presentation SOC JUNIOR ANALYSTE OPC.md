@@ -38,8 +38,8 @@ graph LR
   ROOT --> FOR["🔎 3. Moteurs Forensics<br/>(Python, AbuseIPDB, URLScan)"]:::nodeStyle
   ROOT --> REP["📊 4. Consolidation<br/>(Score Mathématique & Reporting HTML)"]:::nodeStyle
 ````
-<a href="SOAR-PHISING-ANALYSTE-MAKE-IA"> 
-</a>
+
+ **[Voir le repository complet du projet : Déploiement d'un SIEM](https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA)**
 
 **<mark>Expertise,Niveau,Compétences Validées</mark>**
 
