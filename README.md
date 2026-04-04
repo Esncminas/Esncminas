@@ -1,12 +1,6 @@
 <h1 align="center">Bonjour👋, Je m'appel "ADRIEN DUCTANE"</h1>
 <h3 align="center">Analyste junior Cybersécurité SOC | SecOps & Threat Intelligence</h3>
 
-<p align="center">
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Comp%C3%A9tence-SecOps-blue%3Fstyle%3Dfor-the-badge%26logo%3Dsecurity" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Outil-Make.com-success%3Fstyle%3Dfor-the-badge" />
-<img src="https://www.google.com/search?q=https://img.shields.io/badge/Focus-Threat_Intelligence-critical%3Fstyle%3Dfor-the-badge%26logo%3Dhackthebox" />
-</p>
-
 👨‍💻 À propos de moi
 
 Passionné par l'automatisation de la sécurité (SecOps) et la Threat Intelligence, mon objectif est de transformer les alertes brutes en décisions qualifiées grâce à l'orchestration et à l'analyse proactive. Ce repository sert de portfolio pour illustrer mes compétences, mes projets et ma vision du métier.
