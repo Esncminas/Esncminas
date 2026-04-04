@@ -40,7 +40,6 @@ graph LR
 ````
 <div align="center">
   <a href="[https://github.com/ton-pseudo/projet-1](https://github.com/Esncminas/SOAR-PHISING-ANALYSTE-MAKE-IA)">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=ton-pseudo&repo=projet-1&theme=radical" width="400" />
   </a>
 </div>
 
