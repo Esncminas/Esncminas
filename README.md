@@ -41,11 +41,11 @@ graph LR
 **Expertise,Niveau,Compétences Validées**
 
 Architecture SOAR & Automatisation,█████████░ 90%,<br> 
---> "Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."
+--> "Modélisation logique, gestion des erreurs natives, exécution parallèle, manipulation de variables en mémoire."<br> 
 Forensique E-mail & Threat Intel,████████░░ 80%,<br> 
---> "Parsing d'entêtes complexes (Headers EML), typage MIME, enrichissement IoC (CTI)."
+--> "Parsing d'entêtes complexes (Headers EML), typage MIME, enrichissement IoC (CTI)."<br> 
 Programmation Python & API REST,███████░░░ 70%,<br> 
---> "Scripting (Regex), requêtes HTTP synchrones (Webhooks), sérialisation et parsing JSON."
+--> "Scripting (Regex), requêtes HTTP synchrones (Webhooks), sérialisation et parsing JSON."<br> 
 
 **<mark>Autres Projets Techniques</mark>**
 <details>
