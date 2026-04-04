@@ -81,6 +81,36 @@ La maîtrise de l'anglais technique est le cœur de mon environnement de travail
 <mark>Troubleshooting</mark> : Interprétation des codes d'erreurs serveurs (Unprocessable Entity, BundleValidationError) et échanges sur des forums spécialisés (StackOverflow).<br>
 <mark>Standardisation</mark> : Nommage systématisé des variables (rawBodyContent, ip_source) et structuration des flux JSON selon les conventions de la scène tech internationale.<br>
 
+## 👁️ Ma représentation du métier & Soft Skills
+
+<table width="100%">
+  <tr>
+    <td width="50%" valign="top">
+      <h3>Évolution de ma vision (Retex)</h3>
+      
+      <blockquote>
+        <p> <b>AU DÉBUT DE MA FORMATION</b></p>
+        Je voyais l'analyste comme un opérateur posté devant un SIEM, réagissant manuellement aux alertes selon des procédures très strictes.
+      </blockquote>
+      
+      <blockquote>
+        <p> <b style="color:#10B981;">MA VISION AUJOURD'HUI</b></p>
+        C'est un métier d'ingénierie et d'automatisation. L'analyste moderne construit ses propres outils (SOAR) pour qualifier la menace et se concentrer sur l'investigation complexe.
+      </blockquote>
+    </td>
+
+    <td width="50%" valign="top">
+      <h3>Soft Skills travaillés</h3>  
+      <p> <b>Rigueur & Troubleshooting</b><br>
+      <sub>Recherche de pannes étape par étape face aux bugs de syntaxe mathématique ou de parsing Regex.</sub></p>
+      
+      <p>🇬🇧 <b>Anglais Professionnel</b><br>
+      <sub>Exploitation fluide des documentations techniques API en anglais (Urlscan, AbuseIPDB).</sub></p>
+    </td>
+  </tr>
+</table>
+
+
 <div align="center">
 <i>Prêt à relever de nouveaux défis en cybersécurité.</i>
 
