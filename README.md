@@ -84,34 +84,34 @@ La maîtrise de l'anglais technique est le cœur de mon environnement de travail
 ## 👁️ Ma représentation du métier & Soft Skills
 
 <table width="100%">
-  <tr>
-    <td width="50%" valign="top">
-      <h3>Évolution de ma vision (Retex)</h3>
-      
-      <blockquote>
-        <p>🌫️ <b>AU DÉBUT DE MA FORMATION</b></p>
-        Je voyais l'analyste comme un opérateur posté devant un SIEM, réagissant manuellement aux alertes selon des procédures très strictes.
-      </blockquote>
-      
-      <blockquote>
-        <p>✅ <b style="color:#10B981;">MA VISION AUJOURD'HUI</b></p>
-        C'est un métier d'ingénierie et d'automatisation. L'analyste moderne construit ses propres outils (SOAR) pour qualifier la menace et se concentrer sur l'investigation complexe.
-      </blockquote>
-    </td>
+<tr>
+<td width="50%" valign="top">
+<h3>Évolution de ma vision (Retex)</h3>
 
-    <td width="50%" valign="top">
-      <h3>Soft Skills travaillés</h3>
-      
-      <p>🗣️ <b>Vulgarisation technique</b><br>
-      <sub>Traduction de données JSON brutes en tableaux de bord HTML clairs pour faciliter la prise de décision.</sub></p>
-      
-      <p>🔍 <b>Rigueur & Troubleshooting</b><br>
-      <sub>Recherche de pannes étape par étape face aux bugs de syntaxe mathématique ou de parsing Regex.</sub></p>
-      
-      <p>🇬🇧 <b>Anglais Professionnel</b><br>
-      <sub>Exploitation fluide des documentations techniques API en anglais (Urlscan, AbuseIPDB).</sub></p>
-    </td>
-  </tr>
+<blockquote>
+<p>🌫️ <b>AU DÉBUT DE MA FORMATION</b></p>
+Je voyais l'analyste comme un opérateur posté devant un SIEM, réagissant manuellement aux alertes selon des procédures très strictes.
+</blockquote>
+
+<blockquote>
+<p>✅ <b style="color:#10B981;">MA VISION AUJOURD'HUI</b></p>
+C'est un métier d'ingénierie et d'automatisation. L'analyste moderne construit ses propres outils (SOAR) pour qualifier la menace et se concentrer sur l'investigation complexe.
+</blockquote>
+</td>
+
+<td width="50%" valign="top">
+<h3>Soft Skills travaillés</h3>
+
+<p>🗣️ <b>Vulgarisation technique</b><br>
+<sub>Traduction de données JSON brutes en tableaux de bord HTML clairs pour faciliter la prise de décision.</sub></p>
+
+<p>🔍 <b>Rigueur & Troubleshooting</b><br>
+<sub>Recherche de pannes étape par étape face aux bugs de syntaxe mathématique ou de parsing Regex.</sub></p>
+
+<p>🇬🇧 <b>Anglais Professionnel</b><br>
+<sub>Exploitation fluide des documentations techniques API en anglais (Urlscan, AbuseIPDB).</sub></p>
+</td>
+</tr>
 </table>
 
 
