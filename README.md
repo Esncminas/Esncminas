@@ -24,7 +24,7 @@
 * **Aiguillage Dynamique :** Routage intelligent via filtre MIME (Analyse QR Codes vs. Malware Binaires).
 * **IA & Threat Intelligence :** Intégration d'APIs (AbuseIPDB, URLScan) et analyse sémantique par LLM (détection d'urgence et protection anti-Prompt Injection).
 
-### 🗺️ Architecture de Détection
+###  Architecture de Détection
 
 ```mermaid
 graph LR
