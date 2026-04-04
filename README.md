@@ -1,4 +1,4 @@
-<h1 align="center">Bonjour👋,Je me présente je m'appel "ADRIEN DUCTANE"</h1>
+<h1 align="center">Bonjour👋, Je m'appel "ADRIEN DUCTANE"</h1>
 <h3 align="center">Analyste junior Cybersécurité SOC | SecOps & Threat Intelligence</h3>
 
 <p align="center">
