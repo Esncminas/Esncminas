@@ -31,16 +31,18 @@ Jalons & SLA : Définition de jalons (milestones) et de dates prévisionnelles d
 
 Collaboration et Communication (Teamwork)
 
+
 Communication Asynchrone : Mise en place d'un protocole de communication efficace avec la hiérarchie/le mentor (via Google Drive).
 
 Reporting : Capacité à structurer un compte-rendu clair (Fiche de début de formation).
 
-🔭 Posture Professionnelle & Vision Globale
+Posture Professionnelle & Vision Globale
 
 Écosystème Global : Capacité à se projeter sur l'ensemble de l'écosystème de détection des incidents (la vision globale des 11 projets).
 
 Anticipation des Risques : Identification des futurs défis techniques (ex: difficultés anticipées sur l'analyse dynamique ou la gestion de SIEM) pour mieux s'y préparer.
 
-📦 LIVRABLE(S)
+LIVRABLE(S)
 
 [x] Fiche de début de formation complétée : Document contractuel formalisant les objectifs professionnels, la planification des dates cibles pour les 11 projets, et la méthodologie de travail retenue.
+[AD_P1_demarrez-votre-formation-danalyste-cybersecurite-soc_2025-01-10T002653.zip](https://github.com/user-attachments/files/26643382/AD_P1_demarrez-votre-formation-danalyste-cybersecurite-soc_2025-01-10T002653.zip)
