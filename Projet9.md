@@ -1,57 +1,64 @@
 <div align="center">
-<h1>PROJET 9 | Appuierez-vous sur le bouton rouge ? </h1>
-<p><i>Résolvez un incident de sécurité complexe (Gestion de Crise)</i></p>
+  <h1> PROJET 8 | Limitez les faux positifs</h1>
+  <p><b>Optimisez en continu le système de détection et de gestion des connaissances</b></p>
+
+  <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
+  <img src="https://img.shields.io/badge/THÈME-DETECTION_ENGINEERING-blue?style=for-the-badge&logo=elastic" alt="Thème" />
+  <img src="https://img.shields.io/badge/NIVEAU-AVANCÉ-orange?style=for-the-badge" alt="Niveau" />
 </div>
 
-OBJECTIF DU PROJET
+---
 
-Gestion de Crise (CSIRT) : Ce projet est une simulation de gestion de crise cyber majeure (Niveau CSIRT - Computer Security Incident Response Team). L'objectif est d'intervenir en urgence pour une grande entreprise du secteur de l'énergie (Echelon) subissant une attaque fulgurante ayant conduit à la compromission de son Contrôleur de Domaine (Active Directory). Il s'agit d'analyser l'intrusion, de stopper l'exfiltration de données critiques, de nettoyer l'infrastructure et de rassurer les instances dirigeantes via une communication de crise maîtrisée.
+##  <u>OBJECTIF DU PROJET</u>
 
-OUTILS, CONCEPTS & FRAMEWORKS UTILISÉS
+> **Amélioration Continue et Tuning**
+> L'objectif de ce projet est d'adopter une posture d'amélioration continue face au risque d'<u>Alert Fatigue</u>. Il s'agit d'optimiser les règles de détection (*Tuning*) pour **réduire drastiquement les Faux Positifs**, et de capitaliser sur les retours d'expérience (*Lessons Learned*) pour enrichir la base de connaissances interne (*Knowledge Management*) via l'élaboration de <u>Playbooks</u>.
 
-Techniques d'Attaque Avancées (APT / MITRE ATT&CK)
+---
 
-Accès Initial & Évasion : Spear Phishing, Typosquatting (usurpation du domaine microsooft.com) et HTML Smuggling pour contourner les filtres proxy.
+##  <u>OUTILS, CONCEPTS & FRAMEWORKS</u>
 
-Persistance & Élévation de Privilèges : Modification de clés de registre (Run) pour exécuter un faux binaire système (Bginfo.exe / Masquerading) et utilisation d'un compte de service pour injecter un backdoor dans le groupe critique Domain Admins.
+La réduction du bruit nécessite la maîtrise des langages de détection agnostiques et des processus de capitalisation :
 
-Défense et Analyse Réseau
+| Catégorie | Outils & Concepts | Application & Cas d'usage SOC |
+| :--- | :--- | :--- |
+| 🛡️ **Detection Rules** | **Format Sigma (YAML)** | Écriture et optimisation de règles de détection génériques, transposables sur n'importe quel SIEM. |
+| 📊 **SIEM** | **Elasticsearch** | Création de règles natives et gestion des listes d'exceptions (*Whitelists / Exception Lists*). |
+| 📚 **Capitalisation** | **Playbooks & Rule Lifecycle** | Élaboration de fiches réflexes (SOPs) et audit du cycle de vie des règles de sécurité. |
 
-Exfiltration Furtive (Data Leak) : Détection et analyse de DNS Tunneling (encodage des données volées via des requêtes DNS over TCP sur le port 53).
+---
 
-Network Defense (IPS/IDS) : Création de règles de blocage réseau ciblées via Snort.
+##  <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
+*(Hard & Soft Skills SOC)*
 
-COMPÉTENCES ACQUISES & DÉPLOYÉES
+###  <u>Tuning et Réduction des Faux Positifs (Hard Skills)</u>
+* **Affinage de règles** : Capacité à rendre une règle "silencieuse" sur les comportements légitimes tout en restant intraitable sur les menaces réelles.
+* **Cas pratique (Sigma)** : Optimisation d'une règle détectant les attaques Brute-Force (<u>EventID 4625</u>) par l'ajout de filtres d'exclusion ignorant les comptes de service connus (`svc_test`) et les comptes déjà verrouillés.
+* **Cas pratique (Elastic)** : Création d'une règle "Scan de ports" incluant une liste d'exceptions (*Whitelist*) pour autoriser l'adresse IP du scanner de vulnérabilités interne (`192.168.9.10`), évitant le déclenchement intempestif d'alertes.
 
-(Hard & Soft Skills SOC)
+###  <u>Évaluation Stratégique de la Détection (Hard Skills)</u>
+* **Audit de pertinence** : Capacité à évaluer et justifier le rejet de règles inadaptées au périmètre d'un SOC.
+* **Cas pratique** : Rejet justifié d'une règle d'alerte sur un "Espace disque à 70%", requalifiée en incident de supervision système (<u>Monitoring IT</u>) et non en incident Cyber.
+* 
+###  <u>Capitalisation et Vulgarisation (Soft Skills)</u>
+* **Structuration de l'information** : Capacité à structurer la connaissance pour faciliter l'intégration (*Onboarding*) et les passations d'équipe (*Handover*).
+* **Création de Playbooks** : Amélioration technique d'une fiche d'investigation Wazuh (analyse d'élévation de privilèges via les champs `TokenElevationType`) et création intégrale d'un <u>Playbook de qualification de Phishing</u>.
 
-Forensic et Rétro-ingénierie d'Exfiltration (Hard Skills)
+---
 
-Analyse de flux furtif : Capacité à décortiquer une technique de vol de données silencieuse.
+## 📦 <u>LIVRABLES</u>
 
-Cas pratique réalisé : Identification d'un flux DNS suspect. Extraction des sous-domaines, puis conversion du payload depuis le format Hexadécimal vers l'ASCII pour prouver avec exactitude la nature de la fuite : un dump complet des comptes Active Directory et des mots de passe administrateurs en clair.
+- [x] **Rapport d'optimisation de la détection** : Document d'expertise justifiant la sélection ou le rejet technique de 5 règles de détection proposées.
+- [x] **Règles de Détection Optimisées (Code)** : Fichier générique (`.yaml`) codé au standard Sigma ciblant les échecs d'authentification, et export de règle SIEM Elastic (`.ndjson`) incluant la gestion d'une liste d'exceptions.
+- [x] **Base de Connaissances / Playbooks** : Livrables opérationnels comprenant une fiche réflexe entièrement créée (Traitement de Phishing) et une fiche améliorée techniquement (Investigation Wazuh).
 
-Endiguement et Éradication Systémique (Hard Skills)
+<br>
 
-Disaster Recovery : Capacité à formuler et appliquer un plan de reprise d'activité immédiat.
+<div align="center">
+  <a href="https://github.com/user-attachments/files/26643480/AD_P8_limitez-les-faux-positifs_2025-10-23T130258.zip">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER_L'ARCHIVE_DU_PROJET-ZIP-brightgreen?style=for-the-badge&logo=github" alt="Download" />
+  </a>
+</div>
 
-Cas pratique réseau : Écriture d'une règle SNORT personnalisée (block tcp $HOME_NET 53 -> 183.251.167.28 53) pour couper net le tunnel d'exfiltration.
-
-Cas pratique système : Planification du nettoyage chirurgical de l'Active Directory (suppression des comptes pirates, destruction des tâches planifiées, nettoyage de la base de registre) couplée à un "Force Reset" massif des comptes compromis.
-
-Gestion de Crise et Restitution Executive (Soft Skills)
-
-Traduction stratégique : Capacité à traduire l'urgence technique en langage stratégique pour les niveaux de direction (C-Level).
-
-Cas pratique réalisé : Création d'un support de soutenance et présentation orale. Vulgarisation par l'analogie (ex: expliquer le Tunneling DNS aux métiers en le comparant à un découpage de données envoyé en "code morse") pour justifier les coupures de services.
-
-LIVRABLES
-
-[x] Rapports d'Investigation et de Remédiation (PDF / TheHive) : Exports détaillés du SIRP attestant de l'identification de la Kill Chain complète et de la liste exacte des actions curatives (Équipes Système, Réseau, et Active Directory).
-
-[x] Règle de Détection/Blocage (Code) : Fichier contenant la règle Snort opérationnelle pour neutraliser la fuite de données (Drop du flux TCP/53).
-
-[AD_P9_appuierez-vous-sur-le-bouton-rouge_2026-01-19T084129.zip](https://github.com/user-attachments/files/26643519/AD_P9_appuierez-vous-sur-le-bouton-rouge_2026-01-19T084129.zip)
-
-
-[x] Support de Présentation de Crise (PPTX) : Diaporama exécutif à destination de la direction de l'entreprise (Résumé de la situation, chronologie technique, impacts et mesures de remédiation).
+---
+<p align="center"><i>Réalisé dans le cadre de la certification Analyste SOC</i></p>
