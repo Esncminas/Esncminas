@@ -1,49 +1,49 @@
 <div align="center">
-<h1>PROJET 4 | Scripts Python de Réponse à Incident</h1>
-<p><i>Rédigez vos premiers scripts en Python</i></p>
+  <h1> PROJET 4 | Rédigez vos premiers scripts en Python </h1>
+  <p><b>Rédigez vos premiers scripts en Python d'automatisation SOC</b></p>
+
+  <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
+  <img src="https://img.shields.io/badge/THÈME-AUTOMATISATION_&_PYTHON-blue?style=for-the-badge&logo=python" alt="Thème" />
+  <img src="https://img.shields.io/badge/NIVEAU-SCRIPTING-orange?style=for-the-badge" alt="Niveau" />
 </div>
 
-OBJECTIF DU PROJET
+---
 
-Automatisation de la Réponse (IR) : Ce projet introduit la programmation comme levier fondamental pour l'automatisation de la réponse aux incidents (Incident Response). L'objectif est de concevoir un outil en Python capable d'analyser une arborescence de serveurs web clients, de détecter des Web Shells ou scripts malveillants basés sur des indicateurs de compromission (IoC), et d'appliquer une mesure de remédiation automatisée (Neutralisation).
+##  <u>OBJECTIF DU PROJET</u>
 
-OUTILS, CONCEPTS & FRAMEWORKS UTILISÉS
+> **Automatisation de la Réponse (Incident Response)**
+> Ce projet introduit la programmation comme levier fondamental pour l'automatisation de la réponse aux incidents. L'objectif est de concevoir un outil en Python capable d'analyser une arborescence de serveurs web clients, de détecter des <u>Web Shells</u> ou scripts malveillants basés sur des indicateurs de compromission (IoC), et d'appliquer une <u>mesure de remédiation automatisée</u> (Neutralisation).
 
-Langage & Environnement
+---
 
-Python 3 : Utilisation de la bibliothèque standard os pour les interactions avec le système de fichiers.
+##  <u>OUTILS, CONCEPTS & FRAMEWORKS</u>
 
-Concepts SecOps
+La création d'outils de sécurité internes nécessite une bonne compréhension du système de fichiers et des principes de préservation :
 
-IoC Matching : Recherche d'Indicateurs de Compromission statiques (noms de fichiers spécifiques) et dynamiques (adresses IP d'un serveur de Commande & Contrôle caché dans le code).
+| Catégorie | Outils & Concepts | Application & Cas d'usage SOC |
+| :--- | :--- | :--- |
+| 💻 **Langage & Env.** | **Python 3 (`os`)** | Utilisation de la bibliothèque standard pour les interactions profondes avec le système de fichiers. |
+| 🔍 **Détection** | **IoC Matching** | Recherche d'Indicateurs statiques (noms de fichiers) et dynamiques (IP de Command & Control cachée). |
+| 🛡️ **Remédiation** | **Defanging** | Technique de *neutralisation* consistant à rendre une menace inopérante sans détruire l'artefact. |
 
-Defanging / Neutralisation : Technique consistant à rendre une menace inopérante sans pour autant détruire l'artefact.
+---
 
-COMPÉTENCES ACQUISES & DÉPLOYÉES
+##  <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
+*(Hard & Soft Skills SOC)*
 
-(Hard & Soft Skills SOC)
+###  <u>Développement d'Outils de Sécurité (Hard Skills)</u>
+* **Création de script d'investigation** : Développement itératif d'outils d'analyse (Scripts 1 à 4).
+* **Analyse de fichiers** : Capacité à parcourir récursivement des répertoires (`os.walk`), lire et décortiquer le contenu des fichiers pour y traquer une <u>adresse IP malveillante</u> (`8.13.193.9`) ou identifier un préfixe suspect (`xmc6_`).
 
-Développement d'outils de sécurité (Hard Skills)
+###  <u>Remédiation et Préservation des Preuves (Hard Skills)</u>
+* **Gestion d'incident (NIST)** : Maîtrise des concepts de réponse à incident en phase de Confinement et d'Éradication (*Containment & Eradication*).
+* **Cas pratique de Defanging** : Prise de décision technique cruciale via le <u>renommage des fichiers infectés</u> (ajout de l'extension `.txt`) plutôt que leur suppression. Cela casse l'exécution côté serveur (ex: neutralisation d'un `.php`) tout en <u>préservant le code source intact</u> pour l'équipe d'investigation numérique (Forensic / Reverse Engineering).
 
-Création de script d'investigation : Développement itératif d'outils d'analyse (Scripts 1 à 4).
+###  <u>Logique Algorithmique (Soft Skills)</u>
+* **Décomposition de problèmes** : Capacité à scinder un problème d'investigation complexe en sous-tâches simples (Lister les fichiers ➡️ Trouver les cibles ➡️ Lire le contenu ➡️ Appliquer la neutralisation).
 
-Analyse de fichiers : Capacité à parcourir récursivement des répertoires (os.walk), lire et décortiquer le contenu des fichiers pour y traquer une adresse IP malveillante (8.13.193.9) ou identifier un préfixe suspect (xmc6_).
+---
 
-Remédiation et Préservation des Preuves (Hard Skills)
+## 📦 <u>LIVRABLES</u>
 
-Gestion d'incident (NIST) : Maîtrise des concepts de réponse à incident (Phases Containment & Eradication).
-
-Cas pratique réalisé : Prise de décision technique cruciale via l'implémentation d'une fonction pour renommer les fichiers infectés (ajout de l'extension .txt) plutôt que de les supprimer. Cela casse l'exécution côté serveur (ex: neutralisation d'un fichier .php) tout en préservant le code source intact pour l'équipe d'investigation numérique (Forensic / Reverse Engineering).
-
-Logique Algorithmique (Soft Skills)
-
-Décomposition de problèmes : Capacité à décomposer un problème complexe en sous-tâches simples (Lister les fichiers -> Trouver les noms suspects -> Lire le contenu interne -> Appliquer la modification).
-
-LIVRABLES
-
-[x] Code Source (Python) : Script complet (Script 4.py) intégrant la gestion des erreurs (try/except), la détection multicritères (nom + contenu) et la neutralisation automatisée des menaces.
-
-[x] Note d'ingénierie / Documentation : Document PDF justifiant l'approche algorithmique choisie, les conditions de détection, et l'explication stratégique de la neutralisation par renommage (.txt) pour la conservation des preuves.
-
-[AD_P4_redigez-vos-premiers-scripts-en-python_2025-04-11T080357.zip](https://github.com/user-attachments/files/26643404/AD_P4_redigez-vos-premiers-scripts-en-python_2025-04-11T080357.zip)
-
+- [x] **Code Source (Python)** : Script complet (`Script 4.py`) intégrant la gestion des erreurs
