@@ -1,53 +1,62 @@
 <div align="center">
-<h1>PROJET 6 | Forensic Réseau et Analyse de Traces</h1>
-<p><i>Analysez des données et des traces réseaux d'incidents</i></p>
+  <h1> PROJET 6 | Enquêtez sur vos premiers incidents de cybersécurité </h1>
+  <p><b>Analysez des données brutes et des traces réseaux d'incidents</b></p>
+
+  <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
+  <img src="https://img.shields.io/badge/THÈME-NETWORK_FORENSIC-blue?style=for-the-badge&logo=wireshark" alt="Thème" />
+  <img src="https://img.shields.io/badge/NIVEAU-AVANCÉ-orange?style=for-the-badge" alt="Niveau" />
 </div>
 
-OBJECTIF DU PROJET
+---
 
-Investigation Numérique Avancée : Ce projet plonge au cœur de l'investigation numérique en environnement industriel (secteur agro-alimentaire). L'objectif est de mener une enquête exhaustive à partir de traces réseaux (captures de paquets) et de logs applicatifs/systèmes. Il s'agit de cadrer l'investigation, d'identifier formellement la source d'une attaque, et de qualifier des alertes complexes tout en minimisant l'impact sur les opérations (OT/IT) de l'organisation.
+##  <u>OBJECTIF DU PROJET</u>
 
-OUTILS, CONCEPTS & FRAMEWORKS UTILISÉS
+> **Investigation Numérique Avancée (DFIR)**
+> Ce projet plonge au cœur de l'investigation numérique en environnement industriel (secteur agro-alimentaire). L'objectif est de mener une enquête exhaustive à partir de **traces réseaux (PCAP)** et de logs systèmes. Il s'agit de cadrer l'investigation, d'identifier formellement la source d'une attaque, et de qualifier des alertes complexes tout en <u>minimisant l'impact sur les opérations (OT/IT)</u> de l'organisation.
 
-Analyse et Triage
+---
 
-Network Traffic Analysis (NTA) : Étude des flux de communications (protocoles, ports, adresses IP) pour repérer des comportements anormaux (ex: exfiltration de données, communication vers un serveur Command & Control).
+##  <u>OUTILS, CONCEPTS & FRAMEWORKS</u>
 
-Investigation PCAP : Utilisation d'outils d'analyse réseau (comme Wireshark ou équivalent) pour décortiquer les trames réseaux.
+L'investigation réseau exige une maîtrise pointue de l'architecture des flux et des méthodologies de cadrage :
 
-Gestion d'Incident
+| Catégorie | Outils & Concepts | Application & Cas d'usage SOC |
+| :--- | :--- | :--- |
+| 🌐 **Analyse Réseau** | **NTA & Wireshark (PCAP)** | Décorticage des trames réseaux et étude des flux pour repérer les anomalies (exfiltration, serveur C2). |
+| 🎯 **Gestion d'Incident** | **Incident Scoping (Cadrage)** | Délimitation précise du périmètre de la compromission (machines, comptes et données touchés). |
+| ⚖️ **Investigation** | **Triage Avancé & SOP** | Application de méthodologies strictes pour distinguer les faux positifs complexes des véritables incidents en profondeur. |
 
-Processus de Triage Avancé : Application de méthodologies strictes pour différencier les faux positifs complexes des véritables incidents de sécurité en profondeur.
+---
 
-Cadrage d'Incident (Incident Scoping) : Délimitation du périmètre de la compromission (identification précise des machines, comptes et données touchés).
+##  <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
+*(Hard & Soft Skills SOC)*
 
-COMPÉTENCES ACQUISES & DÉPLOYÉES
+###  <u>Forensic Réseau et Analyse de Traces (Hard Skills)</u>
+* **Reconstitution temporelle** : Capacité à lire et interpréter des données réseaux brutes pour reconstituer la chronologie exacte d'une attaque (<u>Timeline Forensic</u>).
+* **Identification de la source** : Analyse des flux pour déterminer avec précision le **vecteur d'intrusion initial** et détecter d'éventuels **mouvements latéraux** au sein du réseau de l'usine.
 
-(Hard & Soft Skills SOC)
+###  <u>Qualification d'Alertes Avancées (Hard Skills)</u>
+* **Analyse du bruit** : Capacité à enquêter sur des alertes ambiguës, noyées dans l'immense bruit de fond d'un réseau de production industriel.
+* **Validation formelle** : Validation d'un incident potentiel en respectant rigoureusement les procédures standardisées (SOP) du SOC.
 
-Forensic Réseau et Analyse de Traces (Hard Skills)
+###  <u>Communication et Gestion de Crise (Soft Skills)</u>
+* **Interaction de crise** : Capacité cruciale à coordonner les échanges entre les équipes métiers, l'IT et le management lors d'un incident critique.
+* **Traduction métier** : Capacité à traduire des découvertes techniques pointues en <u>impacts "métier" compréhensibles</u> pour la direction, facilitant ainsi la prise de décision (ex: isoler un segment réseau vs. maintenir la chaîne de production).
 
-Reconstitution temporelle : Capacité à lire et interpréter des données réseaux brutes pour reconstituer la chronologie d'une attaque (Timeline).
+---
 
-Identification de la source : Identification rapide et précise des sources d'attaque (Vecteur d'intrusion initial, mouvements latéraux).
+## 📦 <u>LIVRABLES</u>
 
-Qualification d'Alertes Avancées (Hard Skills)
+- [x] **Rapport d'Investigation Réseau (Incident Report)** : Document formel détaillant le cadrage de l'incident, la méthodologie d'analyse des traces réseaux, et la chronologie (Timeline) technique de l'attaque.
+- [x] **Matrice de Qualification des Alertes** : Document justifiant le tri des alertes avancées (argumentaire technique classant les événements en faux positifs ou incidents avérés, preuves réseaux à l'appui).
 
-Analyse du bruit : Capacité à enquêter sur des alertes ambiguës ou noyées dans le bruit de fond du réseau.
+<br>
 
-Validation formelle : Validation d'un incident potentiel en respectant rigoureusement les procédures standardisées (SOP) du SOC.
+<div align="center">
+  <a href="https://github.com/user-attachments/files/26643463/AD_P6_enquetez-sur-vos-premiers-incidents-de-cybersecurite-1_2025-06-21T120417.zip">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER_L'ARCHIVE_DU_PROJET-ZIP-brightgreen?style=for-the-badge&logo=github" alt="Download" />
+  </a>
+</div>
 
-Communication et Gestion des Parties Prenantes (Soft Skills)
-
-Interaction de crise : Capacité cruciale à interagir avec les équipes métiers, l'IT et le management (les parties prenantes) lors d'une crise.
-
-Traduction métier : Traduction des découvertes techniques en impacts "métier" compréhensibles pour la direction de l'usine agro-alimentaire, afin de faciliter la prise de décision sur la coupure ou le maintien des services.
-
-LIVRABLES
-
-[x] Rapport d'Investigation Réseau (Incident Report) : Document formel détaillant le cadrage de l'incident, la méthodologie d'analyse des traces réseaux, et la chronologie (Timeline) technique de l'attaque.
-
-[x] Matrice de Qualification des Alertes : Document justifiant le tri des alertes avancées (argumentaire technique classant les événements en faux positifs ou incidents avérés, preuves réseaux à l'appui).
-
-
-[AD_P6_enquetez-sur-vos-premiers-incidents-de-cybersecurite-1_2025-06-21T120417.zip](https://github.com/user-attachments/files/26643463/AD_P6_enquetez-sur-vos-premiers-incidents-de-cybersecurite-1_2025-06-21T120417.zip)
+---
+<p align="center"><i>Réalisé dans le cadre de la certification Analyste SOC</i></p>
