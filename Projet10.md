@@ -1,5 +1,5 @@
 <div align="center">
-<h1>PROJET 10 | Ingénierie SOAR & SIEM</h1>
+<h1>PROJET 10 | Améliorez et automatisez la détection et le traitement des alertes </h1>
 <p><i>Automatisez des détections d'alertes</i></p>
 </div>
 
