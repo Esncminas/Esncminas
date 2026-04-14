@@ -1,5 +1,5 @@
 <div align="center">
-<h1>PROJET 7 | Gestion d'Incident et Corrélation</h1>
+<h1>PROJET 7 | Résolvez les incidents de sécurité de bout en bout</h1>
 <p><i>Gérez un incident de sécurité de niveau intermédiaire</i></p>
 </div>
 
