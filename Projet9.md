@@ -1,5 +1,5 @@
 <div align="center">
-<h1>PROJET 9 | Gestion de Crise et Résolution Complexe</h1>
+<h1>PROJET 9 |Appuierez-vous sur le bouton rouge ?Complexe</h1>
 <p><i>Résolvez un incident de sécurité complexe (Gestion de Crise)</i></p>
 </div>
 
