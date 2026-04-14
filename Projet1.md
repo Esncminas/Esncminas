@@ -1,48 +1,63 @@
 <div align="center">
-<h1>PROJET 1 | Cadrage et Planification SOC</h1>
-<p><i>Démarrez votre formation d’Analyste Cybersécurité SOC</i></p>
+  <h1>🛡️ PROJET 1 | Cadrage et Planification SOC</h1>
+  <p><b>Parcours de formation : Analyste Cybersécurité SOC</b></p>
+
+  <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
+  <img src="https://img.shields.io/badge/DOMAIN-CYBER_SECURITY-blue?style=for-the-badge&logo=fortinet" alt="Domaine" />
+  <img src="https://img.shields.io/badge/PHASE-CADRAGE-orange?style=for-the-badge" alt="Phase" />
 </div>
 
-OBJECTIF DU PROJET
+---
 
-Phase préparatoire (Cadrage) : Ce projet d'intégration a pour but de définir le cadre d'apprentissage, d'établir une planification stratégique du parcours de formation (Projets 1 à 11) et de mettre en place l'environnement de collaboration avec le mentor. Il s'agit d'une étape indispensable avant le déploiement technique.
+## 🎯 <u>OBJECTIF DU PROJET</u>
 
-OUTILS & ENVIRONNEMENT UTILISÉS
+> **Phase préparatoire (Cadrage)**
+> Ce projet d'intégration a pour but de définir le **cadre d'apprentissage**, d'établir une **planification stratégique** du parcours (Projets 1 à 11) et de mettre en place l'environnement de collaboration avec le mentor.
+> 
+> 💡 *Note : C'est une étape indispensable avant le déploiement technique et l'entrée en phase opérationnelle.*
 
-Bien que non technique, ce projet démontre la maîtrise de l'environnement de travail collaboratif moderne, essentiel dans un SOC (Security Operations Center) :
+---
 
-Google Drive : Outil principal retenu pour le partage sécurisé et asynchrone des livrables, rapports d'investigation et documents de cadrage avec le mentor.
+## 🛠️ <u>STACK & ENVIRONNEMENT UTILISÉS</u>
 
-Outils de gestion de projet (Notion / Trello) : Étude des solutions pour le suivi des tâches (Kanban) et la gestion du temps.
+| Catégorie | Outil | Application & Cas d'usage SOC |
+| :--- | :--- | :--- |
+| ☁️ **Cloud Storage** | **Google Drive** | Partage sécurisé des livrables et rapports d'investigation. |
+| 📊 **Project Management** | **Notion / Trello** | Suivi des tâches en mode **Kanban** et gestion du temps. |
+| 📞 **Communication** | **Visioconférence** | Sessions de bilans et soutenances (similaire aux *Daily Stand-ups*). |
 
-Visioconférence : Outils de communication synchrone pour les sessions de bilans et soutenances (similaire aux points de synchronisation d'équipe SOC / Daily Stand-ups).
+---
 
-COMPÉTENCES ACQUISES & DÉPLOYÉES
-
-(Soft Skills & Transverses SOC)
+## 🧠 <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
+*(Soft Skills & Transverses SOC)*
 
 Dans les métiers de la cybersécurité, l'organisation et la communication sont aussi critiques que la technique. Ce projet valide les compétences suivantes :
 
-Planification et Gestion du Temps (Time Management)
+### ⏱️ <u>Planification et Gestion du Temps</u>
+* **Évaluation de charge** : Capacité à évaluer la charge de travail (estimation des heures par projet <u>multipliée par 2</u> pour conserver une marge de sécurité).
+* **Jalons & SLA** : Définition de jalons (*milestones*) et de dates prévisionnelles de livraison (similaires aux **SLA** - *Service Level Agreement*).
 
-Évaluation de charge : Capacité à évaluer la charge de travail (estimation des heures par projet x2 pour conserver une marge de sécurité).
+### 🤝 <u>Collaboration et Communication</u>
+* **Communication Asynchrone** : Mise en place d'un protocole d'échange efficace avec la hiérarchie ou le mentor.
+* **Reporting** : Capacité à structurer un compte-rendu clair via la <u>Fiche de début de formation</u>.
 
-Jalons & SLA : Définition de jalons (milestones) et de dates prévisionnelles de livraison (SLA - Service Level Agreement personnels).
+### 👁️ <u>Posture Professionnelle & Vision Globale</u>
+* **Écosystème Global** : Capacité à se projeter sur l'ensemble de l'écosystème de détection des incidents.
+* **Anticipation des Risques** : Identification proactive des <u>futurs défis techniques</u> (ex: SIEM, analyse dynamique) pour une meilleure préparation.
 
-Collaboration et Communication (Teamwork)
+---
 
+## 📦 <u>LIVRABLES</u>
 
-Communication Asynchrone : Mise en place d'un protocole de communication efficace avec la hiérarchie/le mentor (via Google Drive).
+- [x] **Fiche de début de formation complétée** : Document formalisant les objectifs, la planification et la méthodologie de travail.
 
-Reporting : Capacité à structurer un compte-rendu clair (Fiche de début de formation).
+<br>
 
-Posture Professionnelle & Vision Globale
+<div align="center">
+  <a href="https://github.com/user-attachments/files/26643382/AD_P1_demarrez-votre-formation-danalyste-cybersecurite-soc_2025-01-10T002653.zip">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER_L'ARCHIVE_DU_PROJET-ZIP-brightgreen?style=for-the-badge&logo=github" alt="Download" />
+  </a>
+</div>
 
-Écosystème Global : Capacité à se projeter sur l'ensemble de l'écosystème de détection des incidents (la vision globale des 11 projets).
-
-Anticipation des Risques : Identification des futurs défis techniques (ex: difficultés anticipées sur l'analyse dynamique ou la gestion de SIEM) pour mieux s'y préparer.
-
-LIVRABLE(S)
-
-[x] Fiche de début de formation complétée : Document contractuel formalisant les objectifs professionnels, la planification des dates cibles pour les 11 projets, et la méthodologie de travail retenue.
-[AD_P1_demarrez-votre-formation-danalyste-cybersecurite-soc_2025-01-10T002653.zip](https://github.com/user-attachments/files/26643382/AD_P1_demarrez-votre-formation-danalyste-cybersecurite-soc_2025-01-10T002653.zip)
+---
+<p align="center"><i>Réalisé dans le cadre de la certification Analyste SOC</i></p>
