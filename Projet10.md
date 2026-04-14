@@ -1,52 +1,64 @@
 <div align="center">
-<h1>PROJET 10 | Améliorez et automatisez la détection et le traitement des alertes </h1>
-<p><i>Automatisez des détections d'alertes</i></p>
+  <h1> PROJET 10 | Améliorez et automatisez la détection et le traitement des alertes</h1>
+  <p><b>Ingénierie SecOps : Automatisation de la détection et réduction du MTTR</b></p>
+
+  <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
+  <img src="https://img.shields.io/badge/THÈME-SECOPS_&_SOAR-blue?style=for-the-badge&logo=splunk" alt="Thème" />
+  <img src="https://img.shields.io/badge/NIVEAU-EXPERT_/_SECOPS-orange?style=for-the-badge" alt="Niveau" />
 </div>
 
-OBJECTIF DU PROJET
+---
 
-Automatisation et Réduction du MTTR : L'objectif de ce projet est de concevoir une architecture de sécurité automatisée pour une entreprise du secteur de l'aéronautique (secteur à très haute sensibilité). Face au volume croissant d'événements, le but est de réduire le temps de réponse aux incidents (MTTR) et d'éliminer les tâches manuelles répétitives des analystes. Le projet consiste à développer des tableaux de bord de détection avancés dans Splunk et à programmer des outils d'enrichissement sur-mesure (Cortex) orchestrés par un SOAR (n8n).
+##  <u>OBJECTIF DU PROJET</u>
 
-OUTILS, CONCEPTS & FRAMEWORKS UTILISÉS
+> **Automatisation et Réduction du MTTR (Mean Time To Repair)**
+> L'objectif de ce projet est de concevoir une architecture de sécurité automatisée pour un acteur de l'aéronautique. Face à l'explosion du volume d'alertes, l'enjeu est de **supprimer les tâches manuelles répétitives** pour permettre aux analystes de se concentrer sur l'investigation complexe. Ce projet repose sur le développement de dashboards **Splunk** avancés et de workflows **SOAR (n8n)** orchestrant des outils d'enrichissement sur-mesure (**Cortex**).
 
-Orchestration et Investigation
+---
 
-SOAR (n8n) : Utilisation de n8n pour créer des workflows automatisant le cycle de vie des alertes (réception par webhook, routage, enrichissement, clôture).
+##  <u>ARCHITECTURE & STACK TECHNIQUE</u>
 
-Cortex & TheHive : Développement d'Analyzers personnalisés pour enrichir automatiquement les observables (IoC) directement dans les tickets d'incidents.
+Le déploiement d'une chaîne automatisée nécessite une intégration profonde entre le SIEM, le SOAR et les API externes :
 
-Analyse et Développement
+| Catégorie | Outils & Frameworks | Application & Cas d'usage SOC |
+| :--- | :--- | :--- |
+| 🛡️ **SIEM & Dashboarding** | **Splunk (SPL)** | Création de requêtes complexes et de vues de supervision comportementale. |
+| ⚙️ **SOAR & Orchestration** | **n8n** | Automatisation du cycle de vie des alertes via Webhooks et routage intelligent. |
+| 🐍 **Développement SecOps** | **Python (Cortex)** | Création d'analyseurs sur-mesure (bibliothèques `ldap3`, `requests`). |
+| 📁 **SIRP** | **TheHive** | Centralisation des incidents et affichage des taxonomies d'enrichissement. |
 
-Splunk (SIEM) : Utilisation du langage SPL (Search Processing Language) pour la création de requêtes complexes et de Dashboards de supervision.
+---
 
-Programmation Python : Interaction avec l'Active Directory (bibliothèque ldap3) et avec des API REST externes (bibliothèque requests).
+##  <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
+*(Hard & Soft Skills SOC)*
 
-COMPÉTENCES ACQUISES & DÉPLOYÉES
+###  <u>Développement SecOps et Intégration d'API (Hard Skills)</u>
+* **Développement d'Analyzers** : Capacité à coder des micro-services en Python pour connecter les outils de sécurité.
+* **Cas pratique (Enrichissement Externe)** : Développement d'un analyseur d'IP interrogeant l'API `ip-api.com` pour injecter automatiquement des **Taxonomies visuelles** (Pays, FAI, VPN) dans TheHive.
+* **Cas pratique (LDAP/AD)** : Développement d'un script capable d'interroger l'Active Directory via `ldap3` pour enrichir instantanément l'alerte avec le rôle et la description de la machine compromise.
 
-(Hard & Soft Skills SOC)
+###  <u>Ingénierie de Détection & Dashboarding (Hard Skills)</u>
+* **Exploitation SPL Avancée** : Mise en évidence de compromissions comportementales via la donnée brute.
+* **Détection "Impossible Travel"** : Conception d'un dashboard Splunk identifiant les connexions suspectes depuis plusieurs continents de manière anormale via des commandes de géolocalisation (`geostats`).
 
-Développement SecOps et Intégration d'API (Hard Skills)
+###  <u>Optimisation Opérationnelle (Soft Skills)</u>
+* **Réduction drastique du MTTA/MTTR** : Le passage de l'enrichissement manuel à un workflow **100% autonome** permet de réduire le temps de réponse global.
+* **Ingénierie de processus** : Capacité à repenser les flux de travail pour maximiser la valeur ajoutée des analystes L2/L3.
 
-Micro-services (Analyzers) : Capacité à coder des scripts Python pour connecter les outils de sécurité entre eux.
+---
 
-Cas pratique 1 (API Externe) : Développement d'un analyseur d'IP interrogeant l'API ip-api.com pour géolocaliser une adresse et générer automatiquement des "Taxonomies" visuelles dans TheHive (Pays, FAI, VPN).
+## 📦 <u>LIVRABLES</u>
 
-Cas pratique 2 (LDAP) : Développement d'un analyseur LDAP capable d'interroger directement l'annuaire Active Directory de l'entreprise pour retrouver instantanément la description et le rôle de la machine ou de l'utilisateur compromis.
+- [x] **Scripts d'Analyse Python (Cortex Analyzers)** : Code source documenté (`LDAP_Machine.py` et `IP_Check.py`) incluant la gestion des requêtes et le parsing JSON.
+- [x] **Captures d'Architecture (Dashboards & Workflows)** : Preuves visuelles du tableau de bord Splunk (Geomap) et des flux de données automatisés dans n8n.
 
-Création de Dashboards SIEM (Hard Skills)
+<br>
 
-Exploitation de la donnée : Capacité à exploiter la donnée brute pour mettre en évidence une compromission comportementale.
+<div align="center">
+  <a href="https://github.com/user-attachments/files/26643529/AD_P10_ameliorez-et-automatisez-la-detection-et-le-traitement-des-alertes_2026-03-13T091601.zip">
+    <img src="https://img.shields.io/badge/TÉLÉCHARGER_L'ARCHIVE_DU_PROJET-ZIP-brightgreen?style=for-the-badge&logo=github" alt="Download" />
+  </a>
+</div>
 
-Cas pratique réalisé : Développement d'un Dashboard Splunk dédié à la détection des "Connexions inhabituelles" (Impossible Travel / Voyage Impossible). Utilisation de commandes SPL pour trier, géolocaliser (Geostats) et filtrer les utilisateurs se connectant depuis plusieurs continents de manière anormale.
-
-Automatisation et Réduction du MTTA/MTTR (Soft Skills & Ingénierie)
-
-Optimisation des processus : Le passage d'un enrichissement manuel (recherche de l'IP, puis recherche dans l'AD) à un workflow n8n 100% autonome permet aux analystes de se concentrer uniquement sur l'investigation à forte valeur ajoutée.
-
-LIVRABLES
-
-[x] Scripts d'Analyse Python (Cortex Analyzers) : Code source des analyseurs documentés (LDAP_Machine.py et IP_Check.py) incluant la gestion des requêtes, le parsing JSON, et la construction des labels de menace (Taxonomies).
-
-[x] Captures d'Architecture (Dashboards & Workflows) : Preuves visuelles (Screenshots) du tableau de bord de supervision Splunk (carte de connexions, alertes critiques) et des flux de données automatisés au sein du SOAR n8n.
-
-[AD_P10_ameliorez-et-automatisez-la-detection-et-le-traitement-des-alertes_2026-03-13T091601.zip](https://github.com/user-attachments/files/26643529/AD_P10_ameliorez-et-automatisez-la-detection-et-le-traitement-des-alertes_2026-03-13T091601.zip)
+---
+<p align="center"><i>Réalisé dans le cadre de la certification Analyste SOC</i></p>
