@@ -1,5 +1,5 @@
 <div align="center">
-<h1>PROJET 8 | Optimisation et Ingénierie de Détection</h1>
+<h1>PROJET 8 | Limitez les faux positifs</h1>
 <p><i>Optimisez en continu le système de gestion de connaissances interne</i></p>
 </div>
 
