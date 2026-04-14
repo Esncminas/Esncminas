@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ PROJET 1 | Démarrez votre formation d’Analyste Cybersécurité SOC </h1>
+  <h1> PROJET 1 | Démarrez votre formation d’Analyste Cybersécurité SOC </h1>
   <p><b>Parcours de formation : Analyste Cybersécurité SOC</b></p>
 
   <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
