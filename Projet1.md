@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>🛡️ PROJET 1 | Cadrage et Planification SOC</h1>
+  <h1>🛡️ PROJET 1 | Démarrez votre formation d’Analyste Cybersécurité SOC </h1>
   <p><b>Parcours de formation : Analyste Cybersécurité SOC</b></p>
 
   <img src="https://img.shields.io/badge/STATUT-TERMINÉ-success?style=for-the-badge&logo=checkmarx" alt="Statut" />
@@ -9,7 +9,7 @@
 
 ---
 
-## 🎯 <u>OBJECTIF DU PROJET</u>
+##  <u>OBJECTIF DU PROJET</u>
 
 > **Phase préparatoire (Cadrage)**
 > Ce projet d'intégration a pour but de définir le **cadre d'apprentissage**, d'établir une **planification stratégique** du parcours (Projets 1 à 11) et de mettre en place l'environnement de collaboration avec le mentor.
@@ -18,7 +18,7 @@
 
 ---
 
-## 🛠️ <u>STACK & ENVIRONNEMENT UTILISÉS</u>
+##  <u>STACK & ENVIRONNEMENT UTILISÉS</u>
 
 | Catégorie | Outil | Application & Cas d'usage SOC |
 | :--- | :--- | :--- |
@@ -28,20 +28,20 @@
 
 ---
 
-## 🧠 <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
+##  <u>COMPÉTENCES ACQUISES & DÉPLOYÉES</u>
 *(Soft Skills & Transverses SOC)*
 
 Dans les métiers de la cybersécurité, l'organisation et la communication sont aussi critiques que la technique. Ce projet valide les compétences suivantes :
 
-### ⏱️ <u>Planification et Gestion du Temps</u>
+###  <u>Planification et Gestion du Temps</u>
 * **Évaluation de charge** : Capacité à évaluer la charge de travail (estimation des heures par projet <u>multipliée par 2</u> pour conserver une marge de sécurité).
 * **Jalons & SLA** : Définition de jalons (*milestones*) et de dates prévisionnelles de livraison (similaires aux **SLA** - *Service Level Agreement*).
 
-### 🤝 <u>Collaboration et Communication</u>
+###  <u>Collaboration et Communication</u>
 * **Communication Asynchrone** : Mise en place d'un protocole d'échange efficace avec la hiérarchie ou le mentor.
 * **Reporting** : Capacité à structurer un compte-rendu clair via la <u>Fiche de début de formation</u>.
 
-### 👁️ <u>Posture Professionnelle & Vision Globale</u>
+###  <u>Posture Professionnelle & Vision Globale</u>
 * **Écosystème Global** : Capacité à se projeter sur l'ensemble de l'écosystème de détection des incidents.
 * **Anticipation des Risques** : Identification proactive des <u>futurs défis techniques</u> (ex: SIEM, analyse dynamique) pour une meilleure préparation.
 
